@@ -1,8 +1,13 @@
 import './style.css';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+// import spaceJpg from '/images/space.jpg';
+// import tusharJpeg from '/images/tushar.jpeg';
+// import earthPng from '/images/earth.png';
+// import normalEarthPng from '/images/normal-earth.png';
+// import cloudJpg from '/images/cloud.jpg';
 
-// Setup
+
 
 const scene = new THREE.Scene();
 
@@ -60,12 +65,12 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('/images/space.jpg');
 scene.background = spaceTexture;
 
 // Avatar
 
-const tusharTexture = new THREE.TextureLoader().load('tushar.jpeg');
+const tusharTexture = new THREE.TextureLoader().load('/images/tushar.jpeg');
 
 const tushar = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: tusharTexture }));
 
