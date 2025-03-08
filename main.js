@@ -141,9 +141,9 @@ scene.add(tushar);
 // MODIFIED
 
 // Earth
-const moonTexture = new THREE.TextureLoader().load('earth.png');
-const normalTexture = new THREE.TextureLoader().load('normal-earth.png');
-const cloudTexture = new THREE.TextureLoader().load('cloud.jpg'); // Load your cloud texture
+const moonTexture = new THREE.TextureLoader().load('/images/earth.png');
+const normalTexture = new THREE.TextureLoader().load('/images/normal-earth.png');
+const cloudTexture = new THREE.TextureLoader().load('/images/cloud.jpg'); // Load your cloud texture
 
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
