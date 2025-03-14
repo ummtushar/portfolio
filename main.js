@@ -1,11 +1,7 @@
 import './style.css';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-// import spaceJpg from '/images/space.jpg';
-// import tusharJpeg from '/images/tushar.jpeg';
-// import earthPng from '/images/earth.png';
-// import normalEarthPng from '/images/normal-earth.png';
-// import cloudJpg from '/images/cloud.jpg';
+import { Analytics } from "@vercel/analytics/react"
 
 
 
